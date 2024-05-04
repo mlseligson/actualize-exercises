@@ -1,0 +1,38 @@
+/* In your actualize-exercises repository, make a file called about.css.
+(Note: be sure to name the file with a .css extension!)
+
+In your about.html file, add a <link> element to link to the about.css file.
+In your about.css file, use the techniques from the video lesson
+to style your website. Feel free to customize the details to your liking!
+
+To view your styled HTML, use the terminal to run the command open about.html.
+
+Use the terminal to commit your code and push your changes to GitHub. */
+
+header {
+    background-color: rgb(124, 103, 74);
+    padding: 5px 20px;
+}
+
+header h1 {
+    color: rgb(201, 235, 156);
+    font-weight: bold;
+}
+
+main h3 {
+    font-variant: small-caps;
+}
+
+.quote {
+    margin-left: 10px;
+    font-style: italic;
+    padding: 10px 20px;
+    border-left: 2px solid #000;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(124, 103, 74);
+    color: rgb(201, 235, 156);
+    font-size: 1.2em;
+}
