@@ -1,0 +1,16 @@
+/* Change the color of all the header elements to green.
+Change the color of all the ordered elements in the To do list to red.
+Change the color of only the first element in the unordered Shopping list to blue.
+(You can add class attributes to the HTML as needed). */
+
+h1, h2 {
+    color: green
+}
+
+ol li {
+    color: red
+}
+
+ul li:first-child {
+    color: blue;
+}
